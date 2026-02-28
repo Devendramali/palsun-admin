@@ -76,45 +76,45 @@ useEffect(() => {
         {/* 🔒 Protected Routes */}
             <Route element={<ProtectedRoute />}>
             <Route element={<AppLayout />}>
-            <Route index path="/" element={<Home />} />
-            <Route path="/profile" element={<UserProfiles />} />
-            <Route path="/administrative-officers" element={<AdministrativeOfficers />} />
-            <Route path="/grambody" element={<GramPanchayatManager />} />
-            <Route path="/notice-manager" element={<NoticeManager />} />
-            <Route path="/contact-list" element={<ContactList />} />
-            <Route path="/events" element={<Events />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/suvichar" element={<Suvichar />} />
-            <Route path="/mahitiadhikar" element={<MahitiAdhikar />} />
-            <Route path="/awards" element={<Awards />} />
-            <Route path="/reports" element={<Reports />} />
-            <Route path="/swayamghoshna" element={<SwayamGhoshna />} />
-            <Route path="/govprograms" element={<GovPrograms />} />
-            <Route path="/gloriouspersons" element={<GloriousPersons />} />
-            <Route path="/school-info" element={<School />} />
-            <Route path="/implinks" element={<Implink />} />
-            <Route path="/banner" element={<Banner />} />
-            <Route path="/mananiy-adhikari" element={<MananiyAdhikari />} />
+            <Route index path="admin/" element={<Home />} />
+            <Route path="admin/profile" element={<UserProfiles />} />
+            <Route path="admin/administrative-officers" element={<AdministrativeOfficers />} />
+            <Route path="admin/grambody" element={<GramPanchayatManager />} />
+            <Route path="admin/notice-manager" element={<NoticeManager />} />
+            <Route path="admin/contact-list" element={<ContactList />} />
+            <Route path="admin/events" element={<Events />} />
+            <Route path="admin/gallery" element={<Gallery />} />
+            <Route path="admin/suvichar" element={<Suvichar />} />
+            <Route path="admin/mahitiadhikar" element={<MahitiAdhikar />} />
+            <Route path="admin/awards" element={<Awards />} />
+            <Route path="admin/reports" element={<Reports />} />
+            <Route path="admin/swayamghoshna" element={<SwayamGhoshna />} />
+            <Route path="admin/govprograms" element={<GovPrograms />} />
+            <Route path="admin/gloriouspersons" element={<GloriousPersons />} />
+            <Route path="admin/school-info" element={<School />} />
+            <Route path="admin/implinks" element={<Implink />} />
+            <Route path="admin/banner" element={<Banner />} />
+            <Route path="admin/mananiy-adhikari" element={<MananiyAdhikari />} />
 
-            <Route path="/calendar" element={<Calendar />} />
-            <Route path="/blank" element={<Blank />} />
-            <Route path="/form-elements" element={<FormElements />} />
-            {/* <Route path="/basic-tables" element={<BasicTables />} /> */}
-            <Route path="/alerts" element={<Alerts />} />
-            <Route path="/avatars" element={<Avatars />} />
-            <Route path="/badge" element={<Badges />} />
-            <Route path="/buttons" element={<Buttons />} />
-            <Route path="/images" element={<Images />} />
-            <Route path="/videos" element={<Videos />} />
-            <Route path="/line-chart" element={<LineChart />} />
-            <Route path="/bar-chart" element={<BarChart />} />
+            <Route path="admin/calendar" element={<Calendar />} />
+            <Route path="admin/blank" element={<Blank />} />
+            <Route path="admin/form-elements" element={<FormElements />} />
+            {/* <Route path="admin/basic-tables" element={<BasicTables />} /> */}
+            <Route path="admin/alerts" element={<Alerts />} />
+            <Route path="admin/avatars" element={<Avatars />} />
+            <Route path="admin/badge" element={<Badges />} />
+            <Route path="admin/buttons" element={<Buttons />} />
+            <Route path="admin/images" element={<Images />} />
+            <Route path="admin/videos" element={<Videos />} />
+            <Route path="admin/line-chart" element={<LineChart />} />
+            <Route path="admin/bar-chart" element={<BarChart />} />
             
           </Route>
         </Route>
 
         {/* 🔓 Public Auth Routes */}
-        <Route path="/login" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
+        <Route path="admin/login" element={<SignIn />} />
+        <Route path="admin/signup" element={<SignUp />} />
 
         {/* ❌ 404 */}
         <Route path="*" element={<NotFound />} />
