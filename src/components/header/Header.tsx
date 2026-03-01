@@ -78,7 +78,7 @@ const Header: React.FC<HeaderProps> = ({ onClick, onToggle }) => {
             </svg>
           </button>
 
-          <Link to="/" className="lg:hidden">
+          <Link to="admin/" className="lg:hidden">
             <h2 class="text-[30px] text-center font-[600]">पळसुन</h2>
           </Link>
 

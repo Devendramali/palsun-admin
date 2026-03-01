@@ -22,7 +22,7 @@ export default function SignInForm() {
   useEffect(() => {
   const token = localStorage.getItem("token");
   if (token) {
-    navigate("/");
+    navigate("/admin/");
   }
 }, []);
 
@@ -58,7 +58,7 @@ console.log("Expires at:", new Date(expiryTime));
   
 
       alert("Login successful!");
-      navigate("/");
+      navigate("/admin/");
 
     } catch (err) {
       setError(err.response?.data?.message || "Login failed");
@@ -140,7 +140,7 @@ console.log("Expires at:", new Date(expiryTime));
             <p className="text-sm font-normal text-center text-gray-700 dark:text-gray-400 sm:text-start">
               Don&apos;t have an account?{" "}
               <Link
-                to="/signup"
+                to="admin/signup"
                 className="text-brand-500 hover:text-brand-600 dark:text-brand-400"
               >
                 Sign Up

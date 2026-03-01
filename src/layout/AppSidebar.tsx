@@ -43,16 +43,16 @@ const navItems: NavItem[] = [
   {
     icon: <GridIcon />,
     name: "Dashboard",
-    path: "/"
+    path: "admin/"
   },
   {
     name: "मुखपृष्ठ",
     icon: <House  />,
     subItems: [
-      { name: "Slider", path: "/banner", pro: false },
+      { name: "Slider", path: "admin/banner", pro: false },
       // { name: "ग्रामपंचायतीची माहिती", path: "/g", pro: false },
       // { name: "प्रमुख पदाधिकारी", path: "/ g", pro: false },
-      { name: "सुविचार", path: "/suvichar", pro: false }
+      { name: "सुविचार", path: "admin/suvichar", pro: false }
     ],
   },
   // {
@@ -69,73 +69,73 @@ const navItems: NavItem[] = [
     name: "आमच्याबद्दल",
     icon: <UserCircleIcon />,
     subItems: [
-      { name: "ग्रामबॉडी", path: "/grambody", pro: false },
-      { name: "प्रशासकीय अधिकारी", path: "/administrative-officers", pro: false },
-      { name: "गौरवशाली व्यक्ती", path: "/gloriouspersons", pro: false },
+      { name: "ग्रामबॉडी", path: "admin/grambody", pro: false },
+      { name: "प्रशासकीय अधिकारी", path: "admin/administrative-officers", pro: false },
+      { name: "गौरवशाली व्यक्ती", path: "admin/gloriouspersons", pro: false },
     ],
   },
 
   {
     name: "माननीय मंत्री व पदाधिकारी",
     icon: <UserIcon />,
-     path: "/mananiy-adhikari",
+     path: "admin/mananiy-adhikari",
   },
  
   {
     name: "पुरस्कार व सन्मान",
     icon: <Trophy />,
-    path: "/awards",
+    path: "admin/awards",
   },
   {
     name: "गावातील कार्यक्रम",
     icon: <Calendar />,
-    path: "/events",
+    path: "admin/events",
   },
    {
     name: "आमची शाळा",
     icon: <School />,
-    path: "/school-info"
+    path: "admin/school-info"
   },
   {
     name: "सूचना",
     icon: <Bell />,
-     path: "/notice-manager",
+     path: "admin/notice-manager",
   },
 
   {
     name: "गॅलरी",
     icon: <Image1 />,
-    path: "/gallery"
+    path: "admin/gallery"
   },  
   {
     name: "शासकीय लिंक्स",
     icon: <Link1 />,
-    path: "/implinks"
+    path: "admin/implinks"
   },  
   {
     name: "जमा-खर्च पत्रक",
     icon: <Chartspline />,
-     path: "/reports",
+     path: "admin/reports",
   },
     {
     name: "शासकीय योजना",
     icon: <Landmark />,
-     path: "/govprograms",
+     path: "admin/govprograms",
   },
     {
     name: "स्वयंघोषणापत्रे",
     icon: <Filecheck />,
-     path: "/swayamghoshna",
+     path: "admin/swayamghoshna",
   },
     {
     name: "माहिती अधिकार",
     icon: <Bookopen />,
-     path: "/mahitiadhikar",
+     path: "admin/mahitiadhikar",
   },
   {
     name: "तक्रार/संपर्क यादी",
     icon: <Messagessquare />,
-     path: "/contact-list",
+     path: "admin/contact-list",
   },
 
 
@@ -358,7 +358,7 @@ const AppSidebar: React.FC = () => {
           !isExpanded && !isHovered ? "lg:justify-center" : "justify-start"
         }`}
       >
-        <Link to="/">
+        <Link to="admin/">
           {isExpanded || isHovered || isMobileOpen ? (
             <>
              <h2 className="text-[30px] text-center font-[600]">पळसुन</h2>

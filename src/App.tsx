@@ -52,7 +52,7 @@ useEffect(() => {
     // Expired → logout instantly
     if (Date.now() > expiryTime) {
       localStorage.clear();
-      window.location.replace("/login");
+      window.location.replace("admin/login");
     }
   };
 
