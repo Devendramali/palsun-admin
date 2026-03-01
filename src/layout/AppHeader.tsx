@@ -84,7 +84,7 @@ const AppHeader: React.FC = () => {
           </button>
 
           <Link to="admin/" className="lg:hidden">
-            <h2 class="text-[30px] text-center font-[600]">पळसुन</h2>
+            <h2 className="text-[30px] text-center font-[600]">पळसुन</h2>
           </Link>
 
           <button

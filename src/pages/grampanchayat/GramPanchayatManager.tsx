@@ -280,9 +280,9 @@ export default function GramPanchayatMembers() {
                 onChange={handleChange}
                 className="w-full border px-3 py-2 rounded-lg"
               >
-                <option>Sarpanch</option>
-                <option>Upasarpanch</option>
-                <option>Member</option>
+                <option>सरपंच</option>
+                <option>उपसरपंच</option>
+                <option>सदस्य</option>
                 <option>Custom</option>
               </select>
 

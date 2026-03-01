@@ -49,7 +49,7 @@ const navItems: NavItem[] = [
     name: "मुखपृष्ठ",
     icon: <House  />,
     subItems: [
-      { name: "Slider", path: "admin/banner", pro: false },
+      { name: "बॅनर", path: "admin/banner", pro: false },
       // { name: "ग्रामपंचायतीची माहिती", path: "/g", pro: false },
       // { name: "प्रमुख पदाधिकारी", path: "/ g", pro: false },
       { name: "सुविचार", path: "admin/suvichar", pro: false }
