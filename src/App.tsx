@@ -38,6 +38,7 @@ import Implink from "./pages/grampanchayat/Implink";
 import { useEffect } from "react";
 import Banner from "./pages/grampanchayat/Banner";
 import MananiyAdhikari from "./pages/grampanchayat/MananiyAdhikari";
+import ShashanNirnay  from "./pages/grampanchayat/ShashanNirnay";
 
 export default function App() {
 
@@ -108,6 +109,7 @@ useEffect(() => {
             <Route path="admin/videos" element={<Videos />} />
             <Route path="admin/line-chart" element={<LineChart />} />
             <Route path="admin/bar-chart" element={<BarChart />} />
+            <Route path="admin/shashanNirnay" element={<ShashanNirnay/>}/>
             
           </Route>
         </Route>

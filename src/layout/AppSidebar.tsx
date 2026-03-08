@@ -113,6 +113,11 @@ const navItems: NavItem[] = [
     path: "admin/implinks"
   },  
   {
+    name: "शासन निर्णय",
+    icon: <BoxCubeIcon />,
+     path: "admin/shashanNirnay",
+  },
+  {
     name: "जमा-खर्च पत्रक",
     icon: <Chartspline />,
      path: "admin/reports",
